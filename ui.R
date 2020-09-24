@@ -3,7 +3,7 @@ library(shinyjs)
 
 ui <- fluidPage(
 
-	titlePanel(title=div(img(src="BSC_logo.png", height = 80, width = 60), HTML("<i>loopnet</i> &#x2015; Protein interactomes at chromatin loops"))),
+	titlePanel(title=div(img(src="BSC_logo.png", height = 80, width = 120), HTML("<i>loopnet</i> &#x2015; Protein interactomes at chromatin loops"))),
 
   sidebarLayout(
     sidebarPanel(
